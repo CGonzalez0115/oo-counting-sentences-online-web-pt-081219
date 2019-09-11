@@ -30,6 +30,6 @@ class String
     if self.empty?
       return 0
     else
-      self.split("."", "?")
+      self.split("."", "?").count
   end
 end
