@@ -27,6 +27,9 @@ class String
   end
 
   def count_sentences
-    self.count_sentences
+    if self.empty?
+      return 0
+    else
+      self.split("."", "?")
   end
 end
