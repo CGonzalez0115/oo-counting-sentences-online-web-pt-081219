@@ -31,5 +31,6 @@ class String
       return 0
     else
       self.split("."", "?").count
+    end
   end
 end
